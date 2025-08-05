@@ -137,17 +137,80 @@ animation: mymove 4s infinite;
     align-items: center;
     margin-top: 120px;
     margin-bottom: 120px;
+    justify-content: space-between;
+    
 
 }
-.cd0ne{
-    background-image: url(./assets/deal-bloom.png);
+.parone{
+    width:35%;
 }
+/* .overley{
+    border:none;
+    border-radius: 100%;
+    border-image: linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) fill 1 ;
+    
+    
+} */
+.cd0ne{
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./assets/deal-bloom.png);
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 65px 50px;
+    border-radius: 10px;
+}
+.cd0ne h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.cd0ne a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
 .cdtwo{
-    background-image: url(./assets/deal-ana.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./assets/deal-ana.png)  ;
+    background-size: cover;
+    text-align: center;
+    
+    padding: 65px 50px;
+    border-radius: 10px;
+}
+.cdtwo h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.cdtwo a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 .cdthree{
-    background-image: url(./assets/deal-zabo.png);
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./assets/deal-zabo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 41%;
+
+    border-radius: 10px;
+    padding: 140px 128px;
 }
+.cdthree h4{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.cdthree a{
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
 
 .four{
     background-image: url(./assets/news-letter-bg.png);
@@ -262,6 +325,13 @@ footer{
     }
     .two-image-one{
         display: none;
+    }
+    .partition{
+        flex-direction: column;
+    }
+    .parone{
+        width: 90%;
+        padding-bottom: 25px;
     }
     .newsletter{
         /* max-width: 320px;
