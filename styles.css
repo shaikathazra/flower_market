@@ -88,6 +88,7 @@ nav ul li{
     color: rgba(0, 0, 0, 0.5);
     max-width:888px ;
     margin: 0px auto;
+    padding-bottom: 50px;
 }
 /* .st-one{
     padding-bottom: 30px;
@@ -110,9 +111,36 @@ nav ul li{
 .card{
     text-align: center;
 }
-.card button{
+ */
+ .card img{
+    padding-bottom: 30px;
+ }
+ .card button{
+    margin-top: 30px;
     width:100%;
-} */
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.card h2{
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
 .two{
     display: flex;
     justify-content: space-between;
@@ -150,7 +178,7 @@ two-image{
 .two-image-one{
     position: absolute;
 inset-inline-start: 800px;
-inset-block-start: 1710px;
+inset-block-start: 2015px;
 animation: mymove 4s infinite;
 }
 @keyframes mymove {
@@ -365,19 +393,29 @@ footer{
     .banner-iamge img{
         width: 100px;
     }
+    .one{
+        display: none;
+    }
     .pr{
     /* display: flex;
     justify-content: space-between; */
     flex-direction: column;
+    
     
  }
  .stpr{
     /* display: flex; */
     flex-direction: row;
     
-    
 
     
+ }
+ .two-image img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 460px;
+
  }
  
     .two-image-one{
@@ -398,6 +436,64 @@ footer{
         flex-direction: column;
         
     } */
+     .two-text {
+    padding-left:20px ;
+    
+}
+.two-text ul{
+    padding-left: 20px;
+    width: 90%;
+}
+
+.two-text ul li{
+    
+    padding-bottom:30px ;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.two-text h3{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+     .partition{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+
+}
+     .three-title{
+        padding-left: 20px;
+     padding-right: 20px;
+     }
+     .three-title h3{
+    padding-bottom: 16px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.three-title p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    max-width:888px ;
+    margin: 0px auto;
+}
+     .cdthree{
+        padding: 65px 50px;
+        width: 70%;
+     }
+     .cdthree h4{
+    
+    font-size: 20px;
+    
+}
+.cdthree a{
+    font-size: 16px;
+    
+    
+}
 
     .newsletter{
         /* max-width: 320px;
