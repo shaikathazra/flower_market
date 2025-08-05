@@ -114,9 +114,43 @@ form input[type="email"]{
 form::placeholder{
     color: rgba(0, 0, 0, 0.4);
 }
-.ft{
-    display: flex;
+footer{
+    
 }
+.ft{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.ft ul{
+    list-style: none;
+}
+.ft ul li{
+    color: #6B7280;
+    font-size: 16px;
+}
+.lpd{
+    padding-bottom: 32px;
+}
+
+.ft-one{
+    width: 30%;
+}
+.ft-one img{
+    padding-bottom: 16px;
+}
+.ft-one p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+.ft-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
 
 @media screen and (max-width:576px) {
     
