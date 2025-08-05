@@ -200,4 +200,24 @@ form input[type="submit"]{
      padding: 12px 19px;  
     width: 30%;
  }
+ .ft{
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+ .ft-one{
+    width: 80%;
+    padding-bottom: 20px;
+}
+.ft-one p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+.ft-two{
+    padding-bottom: 20px;
+}
+ .ft-four{
+    padding-top: 20px;
+    width: 60%;
+}
 }
